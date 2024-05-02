@@ -1,4 +1,5 @@
-""" AGENDA PARA GUARDAR CONTACTOS USANDO ARCHIVO '.json' """
+""" ANTONIO ARIAS URETA - 02/05/2024
+    AGENDA PARA GUARDAR CONTACTOS USANDO ARCHIVO '.json' """
 
 # Importamos 'os' para poder "pausar" el flujo del programa
 # y 'agend_fd' que contiene las funciones creadas

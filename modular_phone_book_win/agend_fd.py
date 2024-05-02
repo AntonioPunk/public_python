@@ -1,4 +1,5 @@
-""" ARCHIVO DE FUNCIONES DE LA AGENDA """
+""" ANTONIO ARIAS URETA - 02/05/2024
+    ARCHIVO DE FUNCIONES DE LA AGENDA """
 # Importamos las librerías para poder limpiar la pantalla
 # y pausar el flujo del programa (os) así como guardar y recuperar
 # los contactos en un archivo llamado " 'FILE_NAME'.json " (json, pathlib).
