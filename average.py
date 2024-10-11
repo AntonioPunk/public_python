@@ -16,12 +16,12 @@ def number_input(AMOUNT, amount_counter):
         except ValueError:
             print("El valor introducido no es válido.")
 
-def average_list(numbers_list, AMOUNT):
+def average_list(numbers_list):
     average = 0
     for _ in range(len(numbers_list)):
         average = average + numbers_list[_]
     try:
-        return average / AMOUNT
+        return average / len(numbers_list)
     except ArithmeticError:
         return 0
 
@@ -31,4 +31,4 @@ print(f"----- PROGRAMA PARA CALCULAR EL PROMEDIO DE UNA LISTA DE NÚMEROS -----\
 AMOUNT = list_length()
 for i in range(AMOUNT):
     list_numbers.append(number_input(AMOUNT, i + 1))
-print(f"El promedio de los números introducidos es: {average_list(list_numbers, AMOUNT)}")
+print(f"El promedio de los números introducidos es: {average_list(list_numbers)}")
