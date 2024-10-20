@@ -1,1 +1,1 @@
-A public repo of Python projets.
+Public Python Project Repository
